@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/ease"
+    tools:context="com.example.gokulkrishnan.helper_kit.Ishu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ISHU"
+        android:id="@+id/textView17"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ee1616" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/ishu"
+        android:layout_below="@+id/textView17"
+        android:layout_alignEnd="@+id/textView17" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText13"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:text="Make Appoinment"
+        android:id="@+id/button26"
+        android:background="#e22929"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3" />
+</RelativeLayout>

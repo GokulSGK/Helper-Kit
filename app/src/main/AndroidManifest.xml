@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gokulkrishnan.helper_kit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Fireapp"
+        android:allowBackup="true"
+        android:icon="@mipmap/help"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Patient" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Token" />
+        <activity android:name=".Application" />
+        <activity android:name=".Prescription" />
+        <activity android:name=".Doctor" />
+        <activity android:name=".Self" />
+        <activity android:name=".Fees" />
+        <activity android:name=".Medical" />
+        <activity android:name=".Sampledoc" />
+        <activity android:name=".Ishu" />
+        <activity android:name=".Karthick" />
+        <activity android:name=".Sathish" />
+        <activity android:name=".Order" />
+    </application>
+
+</manifest>

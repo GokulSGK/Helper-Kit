@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/download"
+    tools:context="com.example.gokulkrishnan.helper_kit.Token">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Token"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#d70c0c"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:textColor="#0c09ac" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Token value"
+        android:id="@+id/button11"
+        android:layout_marginTop="114dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Token value"
+        android:id="@+id/button12"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/button11"
+        android:layout_marginTop="77dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Morning:"
+        android:id="@+id/textView6"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:textColor="#ca0c0c"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Evening"
+        android:id="@+id/textView7"
+        android:textColor="#ca0c0c"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_alignBottom="@+id/button12"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Time"
+        android:id="@+id/textView8"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignEnd="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView9"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        android:textColor="#09880f"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_marginBottom="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView10"
+        android:textSize="20dp"
+        android:textColor="#e90e0e"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_alignStart="@+id/button12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Token"
+        android:id="@+id/textView11"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:textColor="#10aaa8"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
